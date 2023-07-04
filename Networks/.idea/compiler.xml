@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="TimeClient" />
+        <module name="TCPClient" />
+        <module name="TFTP-TCP-Server" />
+        <module name="TimeServer" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="TCPClient" target="1.8" />
+      <module name="TFTP-TCP-Server" target="17" />
+      <module name="TimeClient" target="1.8" />
+      <module name="TimeServer" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
